@@ -63,7 +63,7 @@ let currentSaturacion = 100;
 
     document.getElementById('imagen-editar').addEventListener('error', function() {
       // Si ocurrió un error al cargar la imagen, establecemos una imagen de reemplazo
-      this.src = 'img/promt.png'; // Ruta de la imagen de reemplazo
+      this.src = 'promt.png'; // Ruta de la imagen de reemplazo
     });
 
     document.getElementById('btn-descargar').addEventListener('click', function() {
